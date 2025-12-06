@@ -596,6 +596,7 @@ img {
 }
 
 .modal-field {
+  display: block;
   margin-bottom: 8px;
 }
 
@@ -645,6 +646,7 @@ img {
 }
 
 .modal-field-comment {
+  display: block;
   margin-bottom: 16px;
 }
 
