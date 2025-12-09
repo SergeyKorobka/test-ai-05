@@ -545,7 +545,7 @@
             <div class="modal-input-wrapper">
               <input
                 class="modal-input"
-                type="text"
+                type="tel"
                 name="user_tel"
                 id="user_tel"
                 required
@@ -561,7 +561,7 @@
             <div class="modal-input-wrapper">
               <input
                 class="modal-input"
-                type="text"
+                type="email"
                 name="user_email"
                 id="user_email"
                 required
@@ -583,16 +583,14 @@
           </div>
 
           <div class="modal-privacy-field">
-            <input
-              class="modal-checkbox visually-hidden"
-              type="checkbox"
-              name="user_privacy"
-              id="user_privacy"
-              value="true"
-              required
-            />
-
-            <label class="modal-privacy-label" for="user_privacy">
+            <label class="modal-privacy-label">
+              <input
+                class="modal-checkbox visually-hidden"
+                type="checkbox"
+                name="user_privacy"
+                value="true"
+                required
+              />
               <span class="custom-checkbox"
                 ><svg class="custom-checkbox-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-check"></use></svg
