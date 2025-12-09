@@ -654,10 +654,6 @@ img {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
 
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: rgba(46, 47, 66, 0.4);
   background-color: transparent;
   outline: transparent;
   resize: none;
@@ -674,10 +670,6 @@ img {
 }
 
 .modal-privacy-label {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -685,9 +677,10 @@ img {
 }
 
 .custom-checkbox {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
+
   width: 16px;
   height: 16px;
   border-radius: 2px;
