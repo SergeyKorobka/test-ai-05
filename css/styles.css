@@ -455,6 +455,12 @@ img {
   margin-left: auto;
 }
 
+.footer-subscribe-form {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
 .footer-subscribe-input {
   width: 264px;
   height: 40px;
