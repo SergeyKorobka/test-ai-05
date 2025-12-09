@@ -529,12 +529,6 @@ img {
   pointer-events: auto;
 }
 
-.modal-form {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
 .modal {
   position: absolute;
   top: 50%;
@@ -583,10 +577,6 @@ img {
 .modal-close-btn:focus {
   background-color: #404bbf;
   border: none;
-}
-
-.modal-close-btn:hover .modal-close-icon,
-.modal-close-btn:focus .modal-close-icon {
   fill: #ffffff;
 }
 
@@ -600,9 +590,11 @@ img {
   color: #2e2f42;
 }
 
+.modal-field {
+  margin-bottom: 8px;
+}
+
 .modal-label {
-  display: block;
-  margin-bottom: 4px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -643,6 +635,10 @@ img {
 
 .modal-input:focus + .modal-icon {
   fill: #4d5ae5;
+}
+
+.modal-field-comment {
+  margin-bottom: 16px;
 }
 
 .modal-comment {
