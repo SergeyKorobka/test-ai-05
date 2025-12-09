@@ -619,7 +619,6 @@ img {
   border-radius: 4px;
 
   background-color: transparent;
-  outline: transparent;
 
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -654,17 +653,16 @@ img {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
 
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
   background-color: transparent;
-  outline: transparent;
   resize: none;
 
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-comment::placeholder {
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
 }
 
@@ -719,4 +717,7 @@ img {
   outline: 1px solid #404bbf;
 }
 
+.modal-submit-btn {
+  margin: 0 auto;
+}
 /*#endregion Modal*/
