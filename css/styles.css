@@ -468,6 +468,7 @@ img {
 .footer-subscribe-input {
   width: 264px;
   height: 40px;
+  padding-left: 16px;
   border-radius: 4px;
   background-color: transparent;
   border: 1px solid #fff;
@@ -606,6 +607,7 @@ img {
 }
 
 .modal-label {
+  display: inline-block;
   margin-bottom: 4px;
   font-size: 12px;
   line-height: 1.17;
@@ -722,7 +724,7 @@ img {
   fill: #f4f4fd;
 }
 
-.modal-checkbox:focus-visible + .modal-privacy-label .custom-checkbox {
+.modal-checkbox:focus-visible + .custom-checkbox {
   outline: 1px solid #404bbf;
 }
 
