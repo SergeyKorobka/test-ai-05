@@ -412,7 +412,10 @@ img {
 .footer-container {
   display: flex;
   align-items: baseline;
-  gap: 120px;
+}
+
+.footer-logo-wrapper {
+  margin-right: 120px;
 }
 
 .footer-logo {
@@ -603,7 +606,6 @@ img {
 }
 
 .modal-label {
-  display: block;
   margin-bottom: 4px;
   font-size: 12px;
   line-height: 1.17;
